@@ -15,6 +15,7 @@
 		B5411CB42AA5D4AC003C18A2 /* StructVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5411CB32AA5D4AC003C18A2 /* StructVariables.swift */; };
 		B5411CB62AA5D6A4003C18A2 /* DescView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5411CB52AA5D6A4003C18A2 /* DescView.swift */; };
 		B5411CB82AA5D813003C18A2 /* PassInValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5411CB72AA5D813003C18A2 /* PassInValue.swift */; };
+		B5411CBB2AA5D99C003C18A2 /* PropertyWrappers_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5411CBA2AA5D99C003C18A2 /* PropertyWrappers_Intro.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		B5411CB32AA5D4AC003C18A2 /* StructVariables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructVariables.swift; sourceTree = "<group>"; };
 		B5411CB52AA5D6A4003C18A2 /* DescView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescView.swift; sourceTree = "<group>"; };
 		B5411CB72AA5D813003C18A2 /* PassInValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassInValue.swift; sourceTree = "<group>"; };
+		B5411CBA2AA5D99C003C18A2 /* PropertyWrappers_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyWrappers_Intro.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 		B5411CA02AA5CBD2003C18A2 /* DataSwiftUIDemo */ = {
 			isa = PBXGroup;
 			children = (
+				B5411CB92AA5D97D003C18A2 /* PropertyWrappers */,
 				B5411CB02AA5D28D003C18A2 /* StructProperties */,
 				B5411CAF2AA5CD0C003C18A2 /* Architecture */,
 				B5411CA12AA5CBD2003C18A2 /* DataSwiftUIDemoApp.swift */,
@@ -93,6 +96,14 @@
 				B5411CB72AA5D813003C18A2 /* PassInValue.swift */,
 			);
 			path = StructProperties;
+			sourceTree = "<group>";
+		};
+		B5411CB92AA5D97D003C18A2 /* PropertyWrappers */ = {
+			isa = PBXGroup;
+			children = (
+				B5411CBA2AA5D99C003C18A2 /* PropertyWrappers_Intro.swift */,
+			);
+			path = PropertyWrappers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,6 +182,7 @@
 				B5411CB82AA5D813003C18A2 /* PassInValue.swift in Sources */,
 				B5411CB42AA5D4AC003C18A2 /* StructVariables.swift in Sources */,
 				B5411CA22AA5CBD2003C18A2 /* DataSwiftUIDemoApp.swift in Sources */,
+				B5411CBB2AA5D99C003C18A2 /* PropertyWrappers_Intro.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
