@@ -14,6 +14,7 @@
 		B5411CB22AA5D2B1003C18A2 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5411CB12AA5D2B1003C18A2 /* HeaderView.swift */; };
 		B5411CB42AA5D4AC003C18A2 /* StructVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5411CB32AA5D4AC003C18A2 /* StructVariables.swift */; };
 		B5411CB62AA5D6A4003C18A2 /* DescView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5411CB52AA5D6A4003C18A2 /* DescView.swift */; };
+		B5411CB82AA5D813003C18A2 /* PassInValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5411CB72AA5D813003C18A2 /* PassInValue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		B5411CB12AA5D2B1003C18A2 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		B5411CB32AA5D4AC003C18A2 /* StructVariables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructVariables.swift; sourceTree = "<group>"; };
 		B5411CB52AA5D6A4003C18A2 /* DescView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescView.swift; sourceTree = "<group>"; };
+		B5411CB72AA5D813003C18A2 /* PassInValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassInValue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 				B5411CB12AA5D2B1003C18A2 /* HeaderView.swift */,
 				B5411CB52AA5D6A4003C18A2 /* DescView.swift */,
 				B5411CB32AA5D4AC003C18A2 /* StructVariables.swift */,
+				B5411CB72AA5D813003C18A2 /* PassInValue.swift */,
 			);
 			path = StructProperties;
 			sourceTree = "<group>";
@@ -165,6 +168,7 @@
 				B5411CA42AA5CBD2003C18A2 /* IntroArchitecture.swift in Sources */,
 				B5411CB62AA5D6A4003C18A2 /* DescView.swift in Sources */,
 				B5411CB22AA5D2B1003C18A2 /* HeaderView.swift in Sources */,
+				B5411CB82AA5D813003C18A2 /* PassInValue.swift in Sources */,
 				B5411CB42AA5D4AC003C18A2 /* StructVariables.swift in Sources */,
 				B5411CA22AA5CBD2003C18A2 /* DataSwiftUIDemoApp.swift in Sources */,
 			);
