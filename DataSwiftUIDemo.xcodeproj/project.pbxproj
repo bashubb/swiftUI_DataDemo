@@ -18,6 +18,7 @@
 		B5411CBB2AA5D99C003C18A2 /* PropertyWrappers_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5411CBA2AA5D99C003C18A2 /* PropertyWrappers_Intro.swift */; };
 		B5411CBE2AA5DC38003C18A2 /* BindingToState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5411CBD2AA5DC38003C18A2 /* BindingToState.swift */; };
 		B5411CC82AA733AC003C18A2 /* PropertyWrappers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5411CC72AA733AC003C18A2 /* PropertyWrappers.swift */; };
+		B5411CCA2AA737A9003C18A2 /* StateWithTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5411CC92AA737A9003C18A2 /* StateWithTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		B5411CBA2AA5D99C003C18A2 /* PropertyWrappers_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyWrappers_Intro.swift; sourceTree = "<group>"; };
 		B5411CBD2AA5DC38003C18A2 /* BindingToState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingToState.swift; sourceTree = "<group>"; };
 		B5411CC72AA733AC003C18A2 /* PropertyWrappers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyWrappers.swift; sourceTree = "<group>"; };
+		B5411CC92AA737A9003C18A2 /* StateWithTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateWithTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 			children = (
 				B5411CBD2AA5DC38003C18A2 /* BindingToState.swift */,
 				B5411CC72AA733AC003C18A2 /* PropertyWrappers.swift */,
+				B5411CC92AA737A9003C18A2 /* StateWithTextField.swift */,
 			);
 			path = State;
 			sourceTree = "<group>";
@@ -195,6 +198,7 @@
 				B5411CB22AA5D2B1003C18A2 /* HeaderView.swift in Sources */,
 				B5411CB82AA5D813003C18A2 /* PassInValue.swift in Sources */,
 				B5411CB42AA5D4AC003C18A2 /* StructVariables.swift in Sources */,
+				B5411CCA2AA737A9003C18A2 /* StateWithTextField.swift in Sources */,
 				B5411CA22AA5CBD2003C18A2 /* DataSwiftUIDemoApp.swift in Sources */,
 				B5411CC82AA733AC003C18A2 /* PropertyWrappers.swift in Sources */,
 				B5411CBE2AA5DC38003C18A2 /* BindingToState.swift in Sources */,
