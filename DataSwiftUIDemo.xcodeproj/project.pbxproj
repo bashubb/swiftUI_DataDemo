@@ -20,6 +20,7 @@
 		B5411CC82AA733AC003C18A2 /* PropertyWrappers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5411CC72AA733AC003C18A2 /* PropertyWrappers.swift */; };
 		B5411CCA2AA737A9003C18A2 /* StateWithTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5411CC92AA737A9003C18A2 /* StateWithTextField.swift */; };
 		B5411CCC2AA739BF003C18A2 /* StateWithToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5411CCB2AA739BF003C18A2 /* StateWithToggle.swift */; };
+		B5411CCE2AA73CAD003C18A2 /* StateWithPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5411CCD2AA73CAD003C18A2 /* StateWithPicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		B5411CC72AA733AC003C18A2 /* PropertyWrappers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyWrappers.swift; sourceTree = "<group>"; };
 		B5411CC92AA737A9003C18A2 /* StateWithTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateWithTextField.swift; sourceTree = "<group>"; };
 		B5411CCB2AA739BF003C18A2 /* StateWithToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateWithToggle.swift; sourceTree = "<group>"; };
+		B5411CCD2AA73CAD003C18A2 /* StateWithPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateWithPicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +124,7 @@
 				B5411CC72AA733AC003C18A2 /* PropertyWrappers.swift */,
 				B5411CC92AA737A9003C18A2 /* StateWithTextField.swift */,
 				B5411CCB2AA739BF003C18A2 /* StateWithToggle.swift */,
+				B5411CCD2AA73CAD003C18A2 /* StateWithPicker.swift */,
 			);
 			path = State;
 			sourceTree = "<group>";
@@ -207,6 +210,7 @@
 				B5411CC82AA733AC003C18A2 /* PropertyWrappers.swift in Sources */,
 				B5411CBE2AA5DC38003C18A2 /* BindingToState.swift in Sources */,
 				B5411CBB2AA5D99C003C18A2 /* PropertyWrappers_Intro.swift in Sources */,
+				B5411CCE2AA73CAD003C18A2 /* StateWithPicker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

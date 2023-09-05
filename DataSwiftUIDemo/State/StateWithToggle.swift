@@ -7,8 +7,6 @@
 
 import SwiftUI
 
-
-
 struct StateWithToggle: View {
     
     @State private var darkerBackground = false
