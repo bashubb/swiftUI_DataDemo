@@ -19,6 +19,7 @@
 		B5411CBE2AA5DC38003C18A2 /* BindingToState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5411CBD2AA5DC38003C18A2 /* BindingToState.swift */; };
 		B5411CC82AA733AC003C18A2 /* PropertyWrappers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5411CC72AA733AC003C18A2 /* PropertyWrappers.swift */; };
 		B5411CCA2AA737A9003C18A2 /* StateWithTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5411CC92AA737A9003C18A2 /* StateWithTextField.swift */; };
+		B5411CCC2AA739BF003C18A2 /* StateWithToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5411CCB2AA739BF003C18A2 /* StateWithToggle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		B5411CBD2AA5DC38003C18A2 /* BindingToState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingToState.swift; sourceTree = "<group>"; };
 		B5411CC72AA733AC003C18A2 /* PropertyWrappers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyWrappers.swift; sourceTree = "<group>"; };
 		B5411CC92AA737A9003C18A2 /* StateWithTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateWithTextField.swift; sourceTree = "<group>"; };
+		B5411CCB2AA739BF003C18A2 /* StateWithToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateWithToggle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 				B5411CBD2AA5DC38003C18A2 /* BindingToState.swift */,
 				B5411CC72AA733AC003C18A2 /* PropertyWrappers.swift */,
 				B5411CC92AA737A9003C18A2 /* StateWithTextField.swift */,
+				B5411CCB2AA739BF003C18A2 /* StateWithToggle.swift */,
 			);
 			path = State;
 			sourceTree = "<group>";
@@ -198,6 +201,7 @@
 				B5411CB22AA5D2B1003C18A2 /* HeaderView.swift in Sources */,
 				B5411CB82AA5D813003C18A2 /* PassInValue.swift in Sources */,
 				B5411CB42AA5D4AC003C18A2 /* StructVariables.swift in Sources */,
+				B5411CCC2AA739BF003C18A2 /* StateWithToggle.swift in Sources */,
 				B5411CCA2AA737A9003C18A2 /* StateWithTextField.swift in Sources */,
 				B5411CA22AA5CBD2003C18A2 /* DataSwiftUIDemoApp.swift in Sources */,
 				B5411CC82AA733AC003C18A2 /* PropertyWrappers.swift in Sources */,
