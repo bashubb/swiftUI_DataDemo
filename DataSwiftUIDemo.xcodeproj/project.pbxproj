@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B529242F2AA9E488006BC31D /* StateWithClassData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B529242E2AA9E488006BC31D /* StateWithClassData.swift */; };
+		B52924312AA9E72B006BC31D /* State_Previewing.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52924302AA9E72B006BC31D /* State_Previewing.swift */; };
 		B5411CA22AA5CBD2003C18A2 /* DataSwiftUIDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5411CA12AA5CBD2003C18A2 /* DataSwiftUIDemoApp.swift */; };
 		B5411CA42AA5CBD2003C18A2 /* IntroArchitecture.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5411CA32AA5CBD2003C18A2 /* IntroArchitecture.swift */; };
 		B5411CA62AA5CBD3003C18A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5411CA52AA5CBD3003C18A2 /* Assets.xcassets */; };
@@ -29,6 +30,7 @@
 
 /* Begin PBXFileReference section */
 		B529242E2AA9E488006BC31D /* StateWithClassData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateWithClassData.swift; sourceTree = "<group>"; };
+		B52924302AA9E72B006BC31D /* State_Previewing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State_Previewing.swift; sourceTree = "<group>"; };
 		B5411C9E2AA5CBD2003C18A2 /* DataSwiftUIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DataSwiftUIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5411CA12AA5CBD2003C18A2 /* DataSwiftUIDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSwiftUIDemoApp.swift; sourceTree = "<group>"; };
 		B5411CA32AA5CBD2003C18A2 /* IntroArchitecture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroArchitecture.swift; sourceTree = "<group>"; };
@@ -137,6 +139,7 @@
 				B5AD57972AA89EB100FC60AE /* StateWithStructData.swift */,
 				B5AD57992AA8A1BB00FC60AE /* StateBindingWWithOtherViews.swift */,
 				B529242E2AA9E488006BC31D /* StateWithClassData.swift */,
+				B52924302AA9E72B006BC31D /* State_Previewing.swift */,
 			);
 			path = State;
 			sourceTree = "<group>";
@@ -217,6 +220,7 @@
 				B5411CB62AA5D6A4003C18A2 /* DescView.swift in Sources */,
 				B5411CB22AA5D2B1003C18A2 /* HeaderView.swift in Sources */,
 				B5411CB82AA5D813003C18A2 /* PassInValue.swift in Sources */,
+				B52924312AA9E72B006BC31D /* State_Previewing.swift in Sources */,
 				B5AD57982AA89EB100FC60AE /* StateWithStructData.swift in Sources */,
 				B5411CB42AA5D4AC003C18A2 /* StructVariables.swift in Sources */,
 				B5411CCC2AA739BF003C18A2 /* StateWithToggle.swift in Sources */,
