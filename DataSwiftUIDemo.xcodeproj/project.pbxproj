@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		B529242F2AA9E488006BC31D /* StateWithClassData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B529242E2AA9E488006BC31D /* StateWithClassData.swift */; };
 		B52924312AA9E72B006BC31D /* State_Previewing.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52924302AA9E72B006BC31D /* State_Previewing.swift */; };
+		B52924342AA9E882006BC31D /* ExtractingSubviews_Before.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52924332AA9E882006BC31D /* ExtractingSubviews_Before.swift */; };
+		B52924362AA9EA49006BC31D /* ExtractingSubviews_Problem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52924352AA9EA49006BC31D /* ExtractingSubviews_Problem.swift */; };
+		B52924382AA9ECF4006BC31D /* TwoWayBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52924372AA9ECF4006BC31D /* TwoWayBinding.swift */; };
 		B5411CA22AA5CBD2003C18A2 /* DataSwiftUIDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5411CA12AA5CBD2003C18A2 /* DataSwiftUIDemoApp.swift */; };
 		B5411CA42AA5CBD2003C18A2 /* IntroArchitecture.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5411CA32AA5CBD2003C18A2 /* IntroArchitecture.swift */; };
 		B5411CA62AA5CBD3003C18A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5411CA52AA5CBD3003C18A2 /* Assets.xcassets */; };
@@ -31,6 +34,9 @@
 /* Begin PBXFileReference section */
 		B529242E2AA9E488006BC31D /* StateWithClassData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateWithClassData.swift; sourceTree = "<group>"; };
 		B52924302AA9E72B006BC31D /* State_Previewing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State_Previewing.swift; sourceTree = "<group>"; };
+		B52924332AA9E882006BC31D /* ExtractingSubviews_Before.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractingSubviews_Before.swift; sourceTree = "<group>"; };
+		B52924352AA9EA49006BC31D /* ExtractingSubviews_Problem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractingSubviews_Problem.swift; sourceTree = "<group>"; };
+		B52924372AA9ECF4006BC31D /* TwoWayBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoWayBinding.swift; sourceTree = "<group>"; };
 		B5411C9E2AA5CBD2003C18A2 /* DataSwiftUIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DataSwiftUIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5411CA12AA5CBD2003C18A2 /* DataSwiftUIDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSwiftUIDemoApp.swift; sourceTree = "<group>"; };
 		B5411CA32AA5CBD2003C18A2 /* IntroArchitecture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroArchitecture.swift; sourceTree = "<group>"; };
@@ -62,6 +68,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B52924322AA9E847006BC31D /* Binding */ = {
+			isa = PBXGroup;
+			children = (
+				B52924332AA9E882006BC31D /* ExtractingSubviews_Before.swift */,
+				B52924352AA9EA49006BC31D /* ExtractingSubviews_Problem.swift */,
+				B52924372AA9ECF4006BC31D /* TwoWayBinding.swift */,
+			);
+			path = Binding;
+			sourceTree = "<group>";
+		};
 		B5411C952AA5CBD2003C18A2 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +97,7 @@
 		B5411CA02AA5CBD2003C18A2 /* DataSwiftUIDemo */ = {
 			isa = PBXGroup;
 			children = (
+				B52924322AA9E847006BC31D /* Binding */,
 				B5411CBC2AA5DC19003C18A2 /* State */,
 				B5411CB92AA5D97D003C18A2 /* PropertyWrappers */,
 				B5411CB02AA5D28D003C18A2 /* StructProperties */,
@@ -214,8 +231,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B52924382AA9ECF4006BC31D /* TwoWayBinding.swift in Sources */,
 				B529242F2AA9E488006BC31D /* StateWithClassData.swift in Sources */,
 				B5411CA42AA5CBD2003C18A2 /* IntroArchitecture.swift in Sources */,
+				B52924362AA9EA49006BC31D /* ExtractingSubviews_Problem.swift in Sources */,
 				B5AD579A2AA8A1BB00FC60AE /* StateBindingWWithOtherViews.swift in Sources */,
 				B5411CB62AA5D6A4003C18A2 /* DescView.swift in Sources */,
 				B5411CB22AA5D2B1003C18A2 /* HeaderView.swift in Sources */,
@@ -227,6 +246,7 @@
 				B5AD57962AA89B3600FC60AE /* StateWithModifiers.swift in Sources */,
 				B5411CCA2AA737A9003C18A2 /* StateWithTextField.swift in Sources */,
 				B5411CA22AA5CBD2003C18A2 /* DataSwiftUIDemoApp.swift in Sources */,
+				B52924342AA9E882006BC31D /* ExtractingSubviews_Before.swift in Sources */,
 				B5411CC82AA733AC003C18A2 /* PropertyWrappers.swift in Sources */,
 				B5411CBE2AA5DC38003C18A2 /* BindingToState.swift in Sources */,
 				B5411CBB2AA5D99C003C18A2 /* PropertyWrappers_Intro.swift in Sources */,
