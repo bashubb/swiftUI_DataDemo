@@ -13,6 +13,7 @@
 		B52924362AA9EA49006BC31D /* ExtractingSubviews_Problem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52924352AA9EA49006BC31D /* ExtractingSubviews_Problem.swift */; };
 		B52924382AA9ECF4006BC31D /* TwoWayBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52924372AA9ECF4006BC31D /* TwoWayBinding.swift */; };
 		B529244C2AAE5C96006BC31D /* BindingWithList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B529244B2AAE5C96006BC31D /* BindingWithList.swift */; };
+		B529244E2AAE603A006BC31D /* BindingWithList_iOS15.swift in Sources */ = {isa = PBXBuildFile; fileRef = B529244D2AAE603A006BC31D /* BindingWithList_iOS15.swift */; };
 		B5411CA22AA5CBD2003C18A2 /* DataSwiftUIDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5411CA12AA5CBD2003C18A2 /* DataSwiftUIDemoApp.swift */; };
 		B5411CA42AA5CBD2003C18A2 /* IntroArchitecture.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5411CA32AA5CBD2003C18A2 /* IntroArchitecture.swift */; };
 		B5411CA62AA5CBD3003C18A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5411CA52AA5CBD3003C18A2 /* Assets.xcassets */; };
@@ -39,6 +40,7 @@
 		B52924352AA9EA49006BC31D /* ExtractingSubviews_Problem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractingSubviews_Problem.swift; sourceTree = "<group>"; };
 		B52924372AA9ECF4006BC31D /* TwoWayBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoWayBinding.swift; sourceTree = "<group>"; };
 		B529244B2AAE5C96006BC31D /* BindingWithList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingWithList.swift; sourceTree = "<group>"; };
+		B529244D2AAE603A006BC31D /* BindingWithList_iOS15.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingWithList_iOS15.swift; sourceTree = "<group>"; };
 		B5411C9E2AA5CBD2003C18A2 /* DataSwiftUIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DataSwiftUIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5411CA12AA5CBD2003C18A2 /* DataSwiftUIDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSwiftUIDemoApp.swift; sourceTree = "<group>"; };
 		B5411CA32AA5CBD2003C18A2 /* IntroArchitecture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroArchitecture.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 				B52924352AA9EA49006BC31D /* ExtractingSubviews_Problem.swift */,
 				B52924372AA9ECF4006BC31D /* TwoWayBinding.swift */,
 				B529244B2AAE5C96006BC31D /* BindingWithList.swift */,
+				B529244D2AAE603A006BC31D /* BindingWithList_iOS15.swift */,
 			);
 			path = Binding;
 			sourceTree = "<group>";
@@ -241,6 +244,7 @@
 				B5AD579A2AA8A1BB00FC60AE /* StateBindingWWithOtherViews.swift in Sources */,
 				B5411CB62AA5D6A4003C18A2 /* DescView.swift in Sources */,
 				B5411CB22AA5D2B1003C18A2 /* HeaderView.swift in Sources */,
+				B529244E2AAE603A006BC31D /* BindingWithList_iOS15.swift in Sources */,
 				B5411CB82AA5D813003C18A2 /* PassInValue.swift in Sources */,
 				B52924312AA9E72B006BC31D /* State_Previewing.swift in Sources */,
 				B5AD57982AA89EB100FC60AE /* StateWithStructData.swift in Sources */,
