@@ -32,6 +32,7 @@
 		B57CF9EB2AAF24830035105E /* State_WithClassData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57CF9EA2AAF24830035105E /* State_WithClassData.swift */; };
 		B57CF9ED2AAF27290035105E /* Binding to Classes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57CF9EC2AAF27290035105E /* Binding to Classes.swift */; };
 		B57CF9EF2AAF29350035105E /* ClassData_Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57CF9EE2AAF29350035105E /* ClassData_Solution.swift */; };
+		B57CF9F22AAF2B540035105E /* StateObject_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57CF9F12AAF2B540035105E /* StateObject_Intro.swift */; };
 		B5AD57962AA89B3600FC60AE /* StateWithModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AD57952AA89B3600FC60AE /* StateWithModifiers.swift */; };
 		B5AD57982AA89EB100FC60AE /* StateWithStructData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AD57972AA89EB100FC60AE /* StateWithStructData.swift */; };
 		B5AD579A2AA8A1BB00FC60AE /* StateBindingWWithOtherViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AD57992AA8A1BB00FC60AE /* StateBindingWWithOtherViews.swift */; };
@@ -64,6 +65,7 @@
 		B57CF9EA2AAF24830035105E /* State_WithClassData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State_WithClassData.swift; sourceTree = "<group>"; };
 		B57CF9EC2AAF27290035105E /* Binding to Classes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binding to Classes.swift"; sourceTree = "<group>"; };
 		B57CF9EE2AAF29350035105E /* ClassData_Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassData_Solution.swift; sourceTree = "<group>"; };
+		B57CF9F12AAF2B540035105E /* StateObject_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateObject_Intro.swift; sourceTree = "<group>"; };
 		B5AD57952AA89B3600FC60AE /* StateWithModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateWithModifiers.swift; sourceTree = "<group>"; };
 		B5AD57972AA89EB100FC60AE /* StateWithStructData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateWithStructData.swift; sourceTree = "<group>"; };
 		B5AD57992AA8A1BB00FC60AE /* StateBindingWWithOtherViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateBindingWWithOtherViews.swift; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 		B5411CA02AA5CBD2003C18A2 /* DataSwiftUIDemo */ = {
 			isa = PBXGroup;
 			children = (
+				B57CF9F02AAF2B450035105E /* StateObject */,
 				B57CF9E72AAF23780035105E /* ObservableObject */,
 				B52924322AA9E847006BC31D /* Binding */,
 				B5411CBC2AA5DC19003C18A2 /* State */,
@@ -185,6 +188,14 @@
 				B57CF9EE2AAF29350035105E /* ClassData_Solution.swift */,
 			);
 			path = ObservableObject;
+			sourceTree = "<group>";
+		};
+		B57CF9F02AAF2B450035105E /* StateObject */ = {
+			isa = PBXGroup;
+			children = (
+				B57CF9F12AAF2B540035105E /* StateObject_Intro.swift */,
+			);
+			path = StateObject;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,6 +279,7 @@
 				B5411CB22AA5D2B1003C18A2 /* HeaderView.swift in Sources */,
 				B529244E2AAE603A006BC31D /* BindingWithList_iOS15.swift in Sources */,
 				B5411CB82AA5D813003C18A2 /* PassInValue.swift in Sources */,
+				B57CF9F22AAF2B540035105E /* StateObject_Intro.swift in Sources */,
 				B52924312AA9E72B006BC31D /* State_Previewing.swift in Sources */,
 				B5AD57982AA89EB100FC60AE /* StateWithStructData.swift in Sources */,
 				B5411CB42AA5D4AC003C18A2 /* StructVariables.swift in Sources */,
