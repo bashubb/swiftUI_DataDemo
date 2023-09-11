@@ -28,6 +28,7 @@
 		B5411CCA2AA737A9003C18A2 /* StateWithTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5411CC92AA737A9003C18A2 /* StateWithTextField.swift */; };
 		B5411CCC2AA739BF003C18A2 /* StateWithToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5411CCB2AA739BF003C18A2 /* StateWithToggle.swift */; };
 		B5411CCE2AA73CAD003C18A2 /* StateWithPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5411CCD2AA73CAD003C18A2 /* StateWithPicker.swift */; };
+		B57CF9E62AAF1E2A0035105E /* BindingWithLazyVStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57CF9E52AAF1E2A0035105E /* BindingWithLazyVStack.swift */; };
 		B5AD57962AA89B3600FC60AE /* StateWithModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AD57952AA89B3600FC60AE /* StateWithModifiers.swift */; };
 		B5AD57982AA89EB100FC60AE /* StateWithStructData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AD57972AA89EB100FC60AE /* StateWithStructData.swift */; };
 		B5AD579A2AA8A1BB00FC60AE /* StateBindingWWithOtherViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AD57992AA8A1BB00FC60AE /* StateBindingWWithOtherViews.swift */; };
@@ -56,6 +57,7 @@
 		B5411CC92AA737A9003C18A2 /* StateWithTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateWithTextField.swift; sourceTree = "<group>"; };
 		B5411CCB2AA739BF003C18A2 /* StateWithToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateWithToggle.swift; sourceTree = "<group>"; };
 		B5411CCD2AA73CAD003C18A2 /* StateWithPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateWithPicker.swift; sourceTree = "<group>"; };
+		B57CF9E52AAF1E2A0035105E /* BindingWithLazyVStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingWithLazyVStack.swift; sourceTree = "<group>"; };
 		B5AD57952AA89B3600FC60AE /* StateWithModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateWithModifiers.swift; sourceTree = "<group>"; };
 		B5AD57972AA89EB100FC60AE /* StateWithStructData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateWithStructData.swift; sourceTree = "<group>"; };
 		B5AD57992AA8A1BB00FC60AE /* StateBindingWWithOtherViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateBindingWWithOtherViews.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 				B52924372AA9ECF4006BC31D /* TwoWayBinding.swift */,
 				B529244B2AAE5C96006BC31D /* BindingWithList.swift */,
 				B529244D2AAE603A006BC31D /* BindingWithList_iOS15.swift */,
+				B57CF9E52AAF1E2A0035105E /* BindingWithLazyVStack.swift */,
 			);
 			path = Binding;
 			sourceTree = "<group>";
@@ -250,6 +253,7 @@
 				B5AD57982AA89EB100FC60AE /* StateWithStructData.swift in Sources */,
 				B5411CB42AA5D4AC003C18A2 /* StructVariables.swift in Sources */,
 				B5411CCC2AA739BF003C18A2 /* StateWithToggle.swift in Sources */,
+				B57CF9E62AAF1E2A0035105E /* BindingWithLazyVStack.swift in Sources */,
 				B529244C2AAE5C96006BC31D /* BindingWithList.swift in Sources */,
 				B5AD57962AA89B3600FC60AE /* StateWithModifiers.swift in Sources */,
 				B5411CCA2AA737A9003C18A2 /* StateWithTextField.swift in Sources */,
