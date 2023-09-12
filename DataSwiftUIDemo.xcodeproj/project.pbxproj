@@ -36,6 +36,7 @@
 		B57CF9F42AAF36360035105E /* StateObject_ComparedToState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57CF9F32AAF36360035105E /* StateObject_ComparedToState.swift */; };
 		B57CF9F62AAF38D20035105E /* StateObject_WithPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57CF9F52AAF38D20035105E /* StateObject_WithPicker.swift */; };
 		B57CF9FA2AB049DD0035105E /* StateObject_BindingWithOtherViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57CF9F92AB049DD0035105E /* StateObject_BindingWithOtherViews.swift */; };
+		B57CF9FC2AB04C7D0035105E /* StateObject_PassInObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57CF9FB2AB04C7D0035105E /* StateObject_PassInObject.swift */; };
 		B5AD57962AA89B3600FC60AE /* StateWithModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AD57952AA89B3600FC60AE /* StateWithModifiers.swift */; };
 		B5AD57982AA89EB100FC60AE /* StateWithStructData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AD57972AA89EB100FC60AE /* StateWithStructData.swift */; };
 		B5AD579A2AA8A1BB00FC60AE /* StateBindingWWithOtherViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AD57992AA8A1BB00FC60AE /* StateBindingWWithOtherViews.swift */; };
@@ -72,6 +73,7 @@
 		B57CF9F32AAF36360035105E /* StateObject_ComparedToState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateObject_ComparedToState.swift; sourceTree = "<group>"; };
 		B57CF9F52AAF38D20035105E /* StateObject_WithPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateObject_WithPicker.swift; sourceTree = "<group>"; };
 		B57CF9F92AB049DD0035105E /* StateObject_BindingWithOtherViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateObject_BindingWithOtherViews.swift; sourceTree = "<group>"; };
+		B57CF9FB2AB04C7D0035105E /* StateObject_PassInObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateObject_PassInObject.swift; sourceTree = "<group>"; };
 		B5AD57952AA89B3600FC60AE /* StateWithModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateWithModifiers.swift; sourceTree = "<group>"; };
 		B5AD57972AA89EB100FC60AE /* StateWithStructData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateWithStructData.swift; sourceTree = "<group>"; };
 		B5AD57992AA8A1BB00FC60AE /* StateBindingWWithOtherViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateBindingWWithOtherViews.swift; sourceTree = "<group>"; };
@@ -203,6 +205,7 @@
 				B57CF9F32AAF36360035105E /* StateObject_ComparedToState.swift */,
 				B57CF9F52AAF38D20035105E /* StateObject_WithPicker.swift */,
 				B57CF9F92AB049DD0035105E /* StateObject_BindingWithOtherViews.swift */,
+				B57CF9FB2AB04C7D0035105E /* StateObject_PassInObject.swift */,
 			);
 			path = StateObject;
 			sourceTree = "<group>";
@@ -296,6 +299,7 @@
 				B57CF9F62AAF38D20035105E /* StateObject_WithPicker.swift in Sources */,
 				B5411CB42AA5D4AC003C18A2 /* StructVariables.swift in Sources */,
 				B5411CCC2AA739BF003C18A2 /* StateWithToggle.swift in Sources */,
+				B57CF9FC2AB04C7D0035105E /* StateObject_PassInObject.swift in Sources */,
 				B57CF9E62AAF1E2A0035105E /* BindingWithLazyVStack.swift in Sources */,
 				B529244C2AAE5C96006BC31D /* BindingWithList.swift in Sources */,
 				B5AD57962AA89B3600FC60AE /* StateWithModifiers.swift in Sources */,
