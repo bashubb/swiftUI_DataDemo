@@ -1,5 +1,5 @@
 //
-//  ObsevableObject_WithSubView.swift
+//  ObservableObject_WithSubView.swift
 //  DataSwiftUIDemo
 //
 //  Created by HubertMac on 12/09/2023.
@@ -36,7 +36,7 @@ class Forecast: ObservableObject {
 
 
 // Parent View
-struct ObsevableObject_WithSubView: View {
+struct ObservableObject_WithSubView: View {
     
     @StateObject var forecast = Forecast()
     @State var  showForecast = false
@@ -105,7 +105,7 @@ struct ForecastView: View {
 // Preview
 struct ObsevableObject_WithSubView_Previews: PreviewProvider {
     static var previews: some View {
-        ObsevableObject_WithSubView()
+        ObservableObject_WithSubView()
     }
 }
 
