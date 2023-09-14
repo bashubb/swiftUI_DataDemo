@@ -44,6 +44,7 @@
 		B5AE41222AB2FF8E000E21D8 /* ObservableObject_WhyUse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AE41212AB2FF8E000E21D8 /* ObservableObject_WhyUse.swift */; };
 		B5AE41252AB309AA000E21D8 /* AppStorage_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AE41242AB309AA000E21D8 /* AppStorage_Intro.swift */; };
 		B5AE41272AB30E43000E21D8 /* AppStorage_Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AE41262AB30E43000E21D8 /* AppStorage_Persistence.swift */; };
+		B5AE41292AB3112C000E21D8 /* AppStorage_WhatCanBeStored.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AE41282AB3112C000E21D8 /* AppStorage_WhatCanBeStored.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -85,6 +86,7 @@
 		B5AE41212AB2FF8E000E21D8 /* ObservableObject_WhyUse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableObject_WhyUse.swift; sourceTree = "<group>"; };
 		B5AE41242AB309AA000E21D8 /* AppStorage_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorage_Intro.swift; sourceTree = "<group>"; };
 		B5AE41262AB30E43000E21D8 /* AppStorage_Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorage_Persistence.swift; sourceTree = "<group>"; };
+		B5AE41282AB3112C000E21D8 /* AppStorage_WhatCanBeStored.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorage_WhatCanBeStored.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 		B5411C952AA5CBD2003C18A2 = {
 			isa = PBXGroup;
 			children = (
+				B5AE41282AB3112C000E21D8 /* AppStorage_WhatCanBeStored.swift */,
 				B5411CA02AA5CBD2003C18A2 /* DataSwiftUIDemo */,
 				B5411C9F2AA5CBD2003C18A2 /* Products */,
 			);
@@ -320,6 +323,7 @@
 				B5411CB22AA5D2B1003C18A2 /* HeaderView.swift in Sources */,
 				B529244E2AAE603A006BC31D /* BindingWithList_iOS15.swift in Sources */,
 				B5411CB82AA5D813003C18A2 /* PassInValue.swift in Sources */,
+				B5AE41292AB3112C000E21D8 /* AppStorage_WhatCanBeStored.swift in Sources */,
 				B57CF9F22AAF2B540035105E /* StateObject_Intro.swift in Sources */,
 				B52924312AA9E72B006BC31D /* State_Previewing.swift in Sources */,
 				B5AD57982AA89EB100FC60AE /* StateWithStructData.swift in Sources */,
