@@ -42,6 +42,7 @@
 		B5AD57982AA89EB100FC60AE /* StateWithStructData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AD57972AA89EB100FC60AE /* StateWithStructData.swift */; };
 		B5AD579A2AA8A1BB00FC60AE /* StateBindingWWithOtherViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AD57992AA8A1BB00FC60AE /* StateBindingWWithOtherViews.swift */; };
 		B5AE41222AB2FF8E000E21D8 /* ObservableObject_WhyUse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AE41212AB2FF8E000E21D8 /* ObservableObject_WhyUse.swift */; };
+		B5AE41252AB309AA000E21D8 /* AppStorage_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AE41242AB309AA000E21D8 /* AppStorage_Intro.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -81,6 +82,7 @@
 		B5AD57972AA89EB100FC60AE /* StateWithStructData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateWithStructData.swift; sourceTree = "<group>"; };
 		B5AD57992AA8A1BB00FC60AE /* StateBindingWWithOtherViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateBindingWWithOtherViews.swift; sourceTree = "<group>"; };
 		B5AE41212AB2FF8E000E21D8 /* ObservableObject_WhyUse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableObject_WhyUse.swift; sourceTree = "<group>"; };
+		B5AE41242AB309AA000E21D8 /* AppStorage_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorage_Intro.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 		B5411CA02AA5CBD2003C18A2 /* DataSwiftUIDemo */ = {
 			isa = PBXGroup;
 			children = (
+				B5AE41232AB30983000E21D8 /* AppStorage */,
 				B57CF9FD2AB0516F0035105E /* ObservedObject */,
 				B57CF9F02AAF2B450035105E /* StateObject */,
 				B57CF9E72AAF23780035105E /* ObservableObject */,
@@ -224,6 +227,14 @@
 			path = ObservedObject;
 			sourceTree = "<group>";
 		};
+		B5AE41232AB30983000E21D8 /* AppStorage */ = {
+			isa = PBXGroup;
+			children = (
+				B5AE41242AB309AA000E21D8 /* AppStorage_Intro.swift */,
+			);
+			path = AppStorage;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -296,6 +307,7 @@
 			files = (
 				B52924382AA9ECF4006BC31D /* TwoWayBinding.swift in Sources */,
 				B57CF9EF2AAF29350035105E /* ClassData_Solution.swift in Sources */,
+				B5AE41252AB309AA000E21D8 /* AppStorage_Intro.swift in Sources */,
 				B529242F2AA9E488006BC31D /* StateWithClassData.swift in Sources */,
 				B5411CA42AA5CBD2003C18A2 /* IntroArchitecture.swift in Sources */,
 				B52924362AA9EA49006BC31D /* ExtractingSubviews_Problem.swift in Sources */,
