@@ -16,6 +16,7 @@
 		B529244E2AAE603A006BC31D /* BindingWithList_iOS15.swift in Sources */ = {isa = PBXBuildFile; fileRef = B529244D2AAE603A006BC31D /* BindingWithList_iOS15.swift */; };
 		B53ED49D2AB621D400692EC6 /* AppStorage_StoreStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53ED49C2AB621D400692EC6 /* AppStorage_StoreStruct.swift */; };
 		B53ED4A02AB627F400692EC6 /* SavingData_SceneStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53ED49F2AB627F400692EC6 /* SavingData_SceneStorage.swift */; };
+		B53ED4A32AB62C2000692EC6 /* EnvironmentObject_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53ED4A22AB62C2000692EC6 /* EnvironmentObject_Intro.swift */; };
 		B5411CA22AA5CBD2003C18A2 /* DataSwiftUIDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5411CA12AA5CBD2003C18A2 /* DataSwiftUIDemoApp.swift */; };
 		B5411CA42AA5CBD2003C18A2 /* IntroArchitecture.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5411CA32AA5CBD2003C18A2 /* IntroArchitecture.swift */; };
 		B5411CA62AA5CBD3003C18A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5411CA52AA5CBD3003C18A2 /* Assets.xcassets */; };
@@ -59,6 +60,7 @@
 		B529244D2AAE603A006BC31D /* BindingWithList_iOS15.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingWithList_iOS15.swift; sourceTree = "<group>"; };
 		B53ED49C2AB621D400692EC6 /* AppStorage_StoreStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorage_StoreStruct.swift; sourceTree = "<group>"; };
 		B53ED49F2AB627F400692EC6 /* SavingData_SceneStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavingData_SceneStorage.swift; sourceTree = "<group>"; };
+		B53ED4A22AB62C2000692EC6 /* EnvironmentObject_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObject_Intro.swift; sourceTree = "<group>"; };
 		B5411C9E2AA5CBD2003C18A2 /* DataSwiftUIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DataSwiftUIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5411CA12AA5CBD2003C18A2 /* DataSwiftUIDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSwiftUIDemoApp.swift; sourceTree = "<group>"; };
 		B5411CA32AA5CBD2003C18A2 /* IntroArchitecture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroArchitecture.swift; sourceTree = "<group>"; };
@@ -125,6 +127,14 @@
 			path = SceneStorage;
 			sourceTree = "<group>";
 		};
+		B53ED4A12AB62AF100692EC6 /* EnvironmentObject */ = {
+			isa = PBXGroup;
+			children = (
+				B53ED4A22AB62C2000692EC6 /* EnvironmentObject_Intro.swift */,
+			);
+			path = EnvironmentObject;
+			sourceTree = "<group>";
+		};
 		B5411C952AA5CBD2003C18A2 = {
 			isa = PBXGroup;
 			children = (
@@ -144,6 +154,7 @@
 		B5411CA02AA5CBD2003C18A2 /* DataSwiftUIDemo */ = {
 			isa = PBXGroup;
 			children = (
+				B53ED4A12AB62AF100692EC6 /* EnvironmentObject */,
 				B53ED49E2AB627D000692EC6 /* SceneStorage */,
 				B5AE41232AB30983000E21D8 /* AppStorage */,
 				B57CF9FD2AB0516F0035105E /* ObservedObject */,
@@ -357,6 +368,7 @@
 				B57CF9EB2AAF24830035105E /* State_WithClassData.swift in Sources */,
 				B5411CCA2AA737A9003C18A2 /* StateWithTextField.swift in Sources */,
 				B5411CA22AA5CBD2003C18A2 /* DataSwiftUIDemoApp.swift in Sources */,
+				B53ED4A32AB62C2000692EC6 /* EnvironmentObject_Intro.swift in Sources */,
 				B52924342AA9E882006BC31D /* ExtractingSubviews_Before.swift in Sources */,
 				B5AE41272AB30E43000E21D8 /* AppStorage_Persistence.swift in Sources */,
 				B5411CC82AA733AC003C18A2 /* PropertyWrappers.swift in Sources */,
