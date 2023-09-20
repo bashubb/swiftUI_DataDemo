@@ -21,6 +21,7 @@
 		B53ED4BA2AB8499E00692EC6 /* EnvironmentObject_OnParentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53ED4B92AB8499E00692EC6 /* EnvironmentObject_OnParentView.swift */; };
 		B53ED4D62ABA45E300692EC6 /* Environment_NotAvailableInInit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53ED4D52ABA45E300692EC6 /* Environment_NotAvailableInInit.swift */; };
 		B53ED4D92ABB8EB000692EC6 /* onChange_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53ED4D82ABB8EB000692EC6 /* onChange_Intro.swift */; };
+		B53ED4DB2ABB91B900692EC6 /* OnChange_OnMainThread.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53ED4DA2ABB91B900692EC6 /* OnChange_OnMainThread.swift */; };
 		B5411CA22AA5CBD2003C18A2 /* DataSwiftUIDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5411CA12AA5CBD2003C18A2 /* DataSwiftUIDemoApp.swift */; };
 		B5411CA42AA5CBD2003C18A2 /* IntroArchitecture.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5411CA32AA5CBD2003C18A2 /* IntroArchitecture.swift */; };
 		B5411CA62AA5CBD3003C18A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5411CA52AA5CBD3003C18A2 /* Assets.xcassets */; };
@@ -69,6 +70,7 @@
 		B53ED4B92AB8499E00692EC6 /* EnvironmentObject_OnParentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObject_OnParentView.swift; sourceTree = "<group>"; };
 		B53ED4D52ABA45E300692EC6 /* Environment_NotAvailableInInit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment_NotAvailableInInit.swift; sourceTree = "<group>"; };
 		B53ED4D82ABB8EB000692EC6 /* onChange_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onChange_Intro.swift; sourceTree = "<group>"; };
+		B53ED4DA2ABB91B900692EC6 /* OnChange_OnMainThread.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnChange_OnMainThread.swift; sourceTree = "<group>"; };
 		B5411C9E2AA5CBD2003C18A2 /* DataSwiftUIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DataSwiftUIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5411CA12AA5CBD2003C18A2 /* DataSwiftUIDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSwiftUIDemoApp.swift; sourceTree = "<group>"; };
 		B5411CA32AA5CBD2003C18A2 /* IntroArchitecture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroArchitecture.swift; sourceTree = "<group>"; };
@@ -150,6 +152,7 @@
 			isa = PBXGroup;
 			children = (
 				B53ED4D82ABB8EB000692EC6 /* onChange_Intro.swift */,
+				B53ED4DA2ABB91B900692EC6 /* OnChange_OnMainThread.swift */,
 			);
 			path = "Input&EventModifiers";
 			sourceTree = "<group>";
@@ -382,6 +385,7 @@
 				B53ED4A02AB627F400692EC6 /* SavingData_SceneStorage.swift in Sources */,
 				B5411CB42AA5D4AC003C18A2 /* StructVariables.swift in Sources */,
 				B57CF9FF2AB052170035105E /* ObservableObject_WithSubView.swift in Sources */,
+				B53ED4DB2ABB91B900692EC6 /* OnChange_OnMainThread.swift in Sources */,
 				B53ED4D92ABB8EB000692EC6 /* onChange_Intro.swift in Sources */,
 				B5411CCC2AA739BF003C18A2 /* StateWithToggle.swift in Sources */,
 				B5AE41222AB2FF8E000E21D8 /* ObservableObject_WhyUse.swift in Sources */,
