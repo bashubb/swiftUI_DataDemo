@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B51C9CC42ABC3B290015AA39 /* OnReceive_PublisherOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51C9CC32ABC3B290015AA39 /* OnReceive_PublisherOutput.swift */; };
+		B51C9CC62ABC45030015AA39 /* OnRecive_WithEnvironmentObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51C9CC52ABC45030015AA39 /* OnRecive_WithEnvironmentObject.swift */; };
 		B529242F2AA9E488006BC31D /* StateWithClassData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B529242E2AA9E488006BC31D /* StateWithClassData.swift */; };
 		B52924312AA9E72B006BC31D /* State_Previewing.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52924302AA9E72B006BC31D /* State_Previewing.swift */; };
 		B52924342AA9E882006BC31D /* ExtractingSubviews_Before.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52924332AA9E882006BC31D /* ExtractingSubviews_Before.swift */; };
@@ -60,6 +61,7 @@
 
 /* Begin PBXFileReference section */
 		B51C9CC32ABC3B290015AA39 /* OnReceive_PublisherOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnReceive_PublisherOutput.swift; sourceTree = "<group>"; };
+		B51C9CC52ABC45030015AA39 /* OnRecive_WithEnvironmentObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnRecive_WithEnvironmentObject.swift; sourceTree = "<group>"; };
 		B529242E2AA9E488006BC31D /* StateWithClassData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateWithClassData.swift; sourceTree = "<group>"; };
 		B52924302AA9E72B006BC31D /* State_Previewing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State_Previewing.swift; sourceTree = "<group>"; };
 		B52924332AA9E882006BC31D /* ExtractingSubviews_Before.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractingSubviews_Before.swift; sourceTree = "<group>"; };
@@ -178,6 +180,7 @@
 			children = (
 				B53ED4E02ABC308B00692EC6 /* OnReceive_Intro.swift */,
 				B51C9CC32ABC3B290015AA39 /* OnReceive_PublisherOutput.swift */,
+				B51C9CC52ABC45030015AA39 /* OnRecive_WithEnvironmentObject.swift */,
 			);
 			path = onReceive;
 			sourceTree = "<group>";
@@ -385,6 +388,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B52924382AA9ECF4006BC31D /* TwoWayBinding.swift in Sources */,
+				B51C9CC62ABC45030015AA39 /* OnRecive_WithEnvironmentObject.swift in Sources */,
 				B57CF9EF2AAF29350035105E /* ClassData_Solution.swift in Sources */,
 				B53ED4D62ABA45E300692EC6 /* Environment_NotAvailableInInit.swift in Sources */,
 				B5AE41252AB309AA000E21D8 /* AppStorage_Intro.swift in Sources */,
