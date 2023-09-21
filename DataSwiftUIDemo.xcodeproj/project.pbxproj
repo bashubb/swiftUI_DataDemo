@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		B51C9CC42ABC3B290015AA39 /* OnReceive_PublisherOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51C9CC32ABC3B290015AA39 /* OnReceive_PublisherOutput.swift */; };
 		B51C9CC62ABC45030015AA39 /* OnRecive_WithEnvironmentObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51C9CC52ABC45030015AA39 /* OnRecive_WithEnvironmentObject.swift */; };
+		B51C9D012ABCC9580015AA39 /* OnSubmit_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51C9D002ABCC9580015AA39 /* OnSubmit_Intro.swift */; };
 		B529242F2AA9E488006BC31D /* StateWithClassData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B529242E2AA9E488006BC31D /* StateWithClassData.swift */; };
 		B52924312AA9E72B006BC31D /* State_Previewing.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52924302AA9E72B006BC31D /* State_Previewing.swift */; };
 		B52924342AA9E882006BC31D /* ExtractingSubviews_Before.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52924332AA9E882006BC31D /* ExtractingSubviews_Before.swift */; };
@@ -62,6 +63,7 @@
 /* Begin PBXFileReference section */
 		B51C9CC32ABC3B290015AA39 /* OnReceive_PublisherOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnReceive_PublisherOutput.swift; sourceTree = "<group>"; };
 		B51C9CC52ABC45030015AA39 /* OnRecive_WithEnvironmentObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnRecive_WithEnvironmentObject.swift; sourceTree = "<group>"; };
+		B51C9D002ABCC9580015AA39 /* OnSubmit_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnSubmit_Intro.swift; sourceTree = "<group>"; };
 		B529242E2AA9E488006BC31D /* StateWithClassData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateWithClassData.swift; sourceTree = "<group>"; };
 		B52924302AA9E72B006BC31D /* State_Previewing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State_Previewing.swift; sourceTree = "<group>"; };
 		B52924332AA9E882006BC31D /* ExtractingSubviews_Before.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractingSubviews_Before.swift; sourceTree = "<group>"; };
@@ -124,6 +126,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B51C9CFF2ABCC93E0015AA39 /* onSubmit */ = {
+			isa = PBXGroup;
+			children = (
+				B51C9D002ABCC9580015AA39 /* OnSubmit_Intro.swift */,
+			);
+			path = onSubmit;
+			sourceTree = "<group>";
+		};
 		B52924322AA9E847006BC31D /* Binding */ = {
 			isa = PBXGroup;
 			children = (
@@ -159,6 +169,7 @@
 		B53ED4D72ABB8E8B00692EC6 /* Input&EventModifiers */ = {
 			isa = PBXGroup;
 			children = (
+				B51C9CFF2ABCC93E0015AA39 /* onSubmit */,
 				B53ED4DF2ABC306900692EC6 /* onReceive */,
 				B53ED4DE2ABC305300692EC6 /* onChange */,
 			);
@@ -402,6 +413,7 @@
 				B5411CB22AA5D2B1003C18A2 /* HeaderView.swift in Sources */,
 				B529244E2AAE603A006BC31D /* BindingWithList_iOS15.swift in Sources */,
 				B53ED4BA2AB8499E00692EC6 /* EnvironmentObject_OnParentView.swift in Sources */,
+				B51C9D012ABCC9580015AA39 /* OnSubmit_Intro.swift in Sources */,
 				B5411CB82AA5D813003C18A2 /* PassInValue.swift in Sources */,
 				B5AE41292AB3112C000E21D8 /* AppStorage_WhatCanBeStored.swift in Sources */,
 				B57CF9F22AAF2B540035105E /* StateObject_Intro.swift in Sources */,
