@@ -23,6 +23,7 @@
 		B53ED4D92ABB8EB000692EC6 /* onChange_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53ED4D82ABB8EB000692EC6 /* onChange_Intro.swift */; };
 		B53ED4DB2ABB91B900692EC6 /* OnChange_OnMainThread.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53ED4DA2ABB91B900692EC6 /* OnChange_OnMainThread.swift */; };
 		B53ED4DD2ABB945600692EC6 /* OnChange_PreviousValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53ED4DC2ABB945600692EC6 /* OnChange_PreviousValue.swift */; };
+		B53ED4E12ABC308B00692EC6 /* OnReceive_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53ED4E02ABC308B00692EC6 /* OnReceive_Intro.swift */; };
 		B5411CA22AA5CBD2003C18A2 /* DataSwiftUIDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5411CA12AA5CBD2003C18A2 /* DataSwiftUIDemoApp.swift */; };
 		B5411CA42AA5CBD2003C18A2 /* IntroArchitecture.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5411CA32AA5CBD2003C18A2 /* IntroArchitecture.swift */; };
 		B5411CA62AA5CBD3003C18A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5411CA52AA5CBD3003C18A2 /* Assets.xcassets */; };
@@ -73,6 +74,7 @@
 		B53ED4D82ABB8EB000692EC6 /* onChange_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onChange_Intro.swift; sourceTree = "<group>"; };
 		B53ED4DA2ABB91B900692EC6 /* OnChange_OnMainThread.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnChange_OnMainThread.swift; sourceTree = "<group>"; };
 		B53ED4DC2ABB945600692EC6 /* OnChange_PreviousValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnChange_PreviousValue.swift; sourceTree = "<group>"; };
+		B53ED4E02ABC308B00692EC6 /* OnReceive_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnReceive_Intro.swift; sourceTree = "<group>"; };
 		B5411C9E2AA5CBD2003C18A2 /* DataSwiftUIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DataSwiftUIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5411CA12AA5CBD2003C18A2 /* DataSwiftUIDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSwiftUIDemoApp.swift; sourceTree = "<group>"; };
 		B5411CA32AA5CBD2003C18A2 /* IntroArchitecture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroArchitecture.swift; sourceTree = "<group>"; };
@@ -153,11 +155,28 @@
 		B53ED4D72ABB8E8B00692EC6 /* Input&EventModifiers */ = {
 			isa = PBXGroup;
 			children = (
+				B53ED4DF2ABC306900692EC6 /* onReceive */,
+				B53ED4DE2ABC305300692EC6 /* onChange */,
+			);
+			path = "Input&EventModifiers";
+			sourceTree = "<group>";
+		};
+		B53ED4DE2ABC305300692EC6 /* onChange */ = {
+			isa = PBXGroup;
+			children = (
 				B53ED4D82ABB8EB000692EC6 /* onChange_Intro.swift */,
 				B53ED4DA2ABB91B900692EC6 /* OnChange_OnMainThread.swift */,
 				B53ED4DC2ABB945600692EC6 /* OnChange_PreviousValue.swift */,
 			);
-			path = "Input&EventModifiers";
+			path = onChange;
+			sourceTree = "<group>";
+		};
+		B53ED4DF2ABC306900692EC6 /* onReceive */ = {
+			isa = PBXGroup;
+			children = (
+				B53ED4E02ABC308B00692EC6 /* OnReceive_Intro.swift */,
+			);
+			path = onReceive;
 			sourceTree = "<group>";
 		};
 		B5411C952AA5CBD2003C18A2 = {
@@ -395,6 +414,7 @@
 				B5AE41222AB2FF8E000E21D8 /* ObservableObject_WhyUse.swift in Sources */,
 				B57CF9FC2AB04C7D0035105E /* StateObject_PassInObject.swift in Sources */,
 				B57CF9E62AAF1E2A0035105E /* BindingWithLazyVStack.swift in Sources */,
+				B53ED4E12ABC308B00692EC6 /* OnReceive_Intro.swift in Sources */,
 				B529244C2AAE5C96006BC31D /* BindingWithList.swift in Sources */,
 				B5AD57962AA89B3600FC60AE /* StateWithModifiers.swift in Sources */,
 				B57CF9EB2AAF24830035105E /* State_WithClassData.swift in Sources */,

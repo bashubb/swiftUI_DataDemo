@@ -11,7 +11,7 @@ import SwiftUI
 struct DataSwiftUIDemoApp: App {
     var body: some Scene {
         WindowGroup {
-            AppStorage_Persistence()
+            OnReceive_Intro()
         }
     }
 }
