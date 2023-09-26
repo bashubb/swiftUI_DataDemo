@@ -58,6 +58,7 @@
 		B5AE41252AB309AA000E21D8 /* AppStorage_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AE41242AB309AA000E21D8 /* AppStorage_Intro.swift */; };
 		B5AE41272AB30E43000E21D8 /* AppStorage_Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AE41262AB30E43000E21D8 /* AppStorage_Persistence.swift */; };
 		B5AE41292AB3112C000E21D8 /* AppStorage_WhatCanBeStored.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AE41282AB3112C000E21D8 /* AppStorage_WhatCanBeStored.swift */; };
+		B5C3FEDC2AC378950055694C /* BookListView_MockIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C3FEDB2AC378950055694C /* BookListView_MockIntro.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -113,6 +114,7 @@
 		B5AE41242AB309AA000E21D8 /* AppStorage_Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorage_Intro.swift; sourceTree = "<group>"; };
 		B5AE41262AB30E43000E21D8 /* AppStorage_Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorage_Persistence.swift; sourceTree = "<group>"; };
 		B5AE41282AB3112C000E21D8 /* AppStorage_WhatCanBeStored.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorage_WhatCanBeStored.swift; sourceTree = "<group>"; };
+		B5C3FEDB2AC378950055694C /* BookListView_MockIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookListView_MockIntro.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -215,6 +217,7 @@
 		B5411CA02AA5CBD2003C18A2 /* DataSwiftUIDemo */ = {
 			isa = PBXGroup;
 			children = (
+				B5C3FEDA2AC378240055694C /* UsingMockData */,
 				B53ED4D72ABB8E8B00692EC6 /* Input&EventModifiers */,
 				B53ED4A12AB62AF100692EC6 /* EnvironmentObject */,
 				B53ED49E2AB627D000692EC6 /* SceneStorage */,
@@ -328,6 +331,14 @@
 			path = AppStorage;
 			sourceTree = "<group>";
 		};
+		B5C3FEDA2AC378240055694C /* UsingMockData */ = {
+			isa = PBXGroup;
+			children = (
+				B5C3FEDB2AC378950055694C /* BookListView_MockIntro.swift */,
+			);
+			path = UsingMockData;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -422,6 +433,7 @@
 				B5AD57982AA89EB100FC60AE /* StateWithStructData.swift in Sources */,
 				B57CF9FA2AB049DD0035105E /* StateObject_BindingWithOtherViews.swift in Sources */,
 				B57CF9F42AAF36360035105E /* StateObject_ComparedToState.swift in Sources */,
+				B5C3FEDC2AC378950055694C /* BookListView_MockIntro.swift in Sources */,
 				B57CF9F62AAF38D20035105E /* StateObject_WithPicker.swift in Sources */,
 				B53ED4B82AB8456C00692EC6 /* EnvironmentObject_GloballyAccessible.swift in Sources */,
 				B53ED4A02AB627F400692EC6 /* SavingData_SceneStorage.swift in Sources */,
